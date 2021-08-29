@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en-US">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Employee detail page template. Bootstrap 4 Admin HTML Theme is a material design and bootstrap 4 based responsive dashboard template by propeller created mainly for admin and backend applications.">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Braxton</title>
+      <link rel="shortcut icon" type="image/x-icon" href="themes/images/favicon.ico">
+      <!-- Google icon -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Rubik Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="themes/css/bootstrap4-admin-compress.min.css">
+      <!-- Canonical Tag -->
+      <link rel="canonical" href="employee-detail.html" />
+      <!-- /build -->
+      <link rel="stylesheet" type="text/css" href="themes/css/style.css">
+   </head>
+   <body>
+      <!-- Sidebar Starts -->
+      <div class="pmd-sidebar-overlay"></div>
+      <!-- Left sidebar -->
+      <aside id="basicSidebar" class="pmd-sidebarmain pmd-sidebar-dark pmd-sidebarmain-slide-push pmd-sidebarmain-open bg-primary pmd-z-depth-light-2" role="navigation">
+         <ul class="nav flex-column pmd-sidebar-nav">
+            <div class="page-content">
+               <div class="d-flex d-flex-row align-items-center mobile-view">
+                  <img alt="Profile-Pic" src="https://bttve.co.bw/sites/default/files/styles/speakers/public/2020-12/DSC07799%20-%20Copy.jpg?itok=RK5CIxiS" class="profile-pic rounded-circle pmd-z-depth-light-2-1 mr-md-4 mr-sm-0" height="130" width="130">
+               </div>
+            </div>
+            </div>
+            <!-- End user info -->
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="dashboard.html">
+                  <i class="material-icons pmd-list-icon pmd-sm md-light">
+                     <svg version="1.1" x="0px" y="0px" width="19.83px" height="18px" viewBox="287.725 407.535 19.83 18" enable-background="new 287.725 407.535 19.83 18" xml:space="preserve">
+                        <g>
+                           <path d="M307.555,407.535h-9.108v10.264h9.108V407.535z M287.725,407.535v6.232h9.109v-6.232H287.725z M296.834,415.271h-9.109v10.264h9.109V415.271z M307.555,419.303h-9.108v6.232h9.108V419.303z" />
+                        </g>
+                     </svg>
+                  </i>
+                  <span class="media-body">Home</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="collapse" href="#employee-menu">
+                  <i class="material-icons pmd-list-icon pmd-sm md-light">
+                  people
+                  </i>
+                  <span class="media-body">Perfom</span>
+                  <i data-badge="3" class="material-icons pmd-badge pmd-badge-overlap pmd-badge-success md-dark pmd-sm">
+                  </i>
+                  <div class="media-right media-bottom"><i class="dic-more-vert dic"></i></div>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="interview.html">
+                  <i class="material-icons pmd-list-icon pmd-sm md-light">
+                     <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="188 188 24 24" enable-background="new 188 188 24 24" xml:space="preserve">
+                        <path d="M200.172,212.25c-2.004,0-4-0.514-5.785-1.487l-3.21,0.908c-0.596,0.186-1.428,0.005-1.935-0.503
+                           c-0.514-0.512-0.709-1.279-0.497-1.954l0.923-3.145c-0.987-1.772-1.508-3.775-1.508-5.808c0-6.623,5.378-12.011,11.988-12.011
+                           c6.623,0,12.012,5.388,12.012,12.011C212.16,206.872,206.782,212.25,200.172,212.25z M194.604,209.234l0.271,0.18
+                           c1.646,0.938,3.469,1.424,5.298,1.424c5.832,0,10.576-4.744,10.576-10.576c0-5.844-4.754-10.6-10.6-10.6
+                           c-5.832,0-10.577,4.755-10.577,10.6c0,1.855,0.493,3.684,1.424,5.287l0.152,0.262l-0.039,0.36l-1.014,3.454
+                           c-0.059,0.188,0,0.401,0.144,0.544c0.142,0.143,0.36,0.202,0.533,0.15L194.604,209.234z"/>
+                        <path d="M205.317,196.705h-2.579v-1.29c0-0.715-0.573-1.289-1.289-1.289h-2.578c-0.715,0-1.29,0.573-1.29,1.289v1.29h-2.578
+                           c-0.715,0-1.283,0.573-1.283,1.29l-0.006,7.09c0,0.716,0.574,1.289,1.289,1.289h10.314c0.715,0,1.288-0.573,1.288-1.289v-7.09
+                           C206.605,197.278,206.032,196.705,205.317,196.705z M201.449,196.705h-2.578v-1.29h2.578V196.705z"/>
+                     </svg>
+                  </i>
+                  <span class="media-body">Grow</span>
+                  <i data-badge="2" class="material-icons pmd-badge pmd-badge-overlap pmd-badge-success md-dark pmd-sm">
+                  </i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="leave.html">
+               <i class="material-icons pmd-list-icon pmd-sm md-light">
+               date_range
+               </i>
+               <span class="media-body">Live</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="inbox.html">
+               <i class="material-icons pmd-list-icon pmd-sm md-light">
+               inbox
+               </i>
+               <span class="media-body">Choose</span>
+               <i data-badge="1" class="material-icons pmd-badge pmd-badge-overlap pmd-badge-success md-dark pmd-sm">
+               </i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="calendar.html">
+               <i class="material-icons pmd-list-icon pmd-sm md-light">
+               today
+               </i>
+               <span class="media-body">Aspire</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="notifications.html">
+               <i class="material-icons pmd-list-icon pmd-sm md-light">
+               notifications
+               </i>
+               <span class="media-body">Coach</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link pmd-ripple-effect" href="email-templates.html">
+               <i class="material-icons pmd-list-icon pmd-sm md-light">
+               web
+               </i>
+               <span class="media-body">Talent</span>
+               </a>
+            </li>
+         </ul>
+      </aside>
+      <!-- End Left sidebar -->
+      <!-- Sidebar Ends -->
+      <!--content area start-->
+      <aside id="basicSidebarceo" class="pmd-sidebarceo pmd-sidebarceo-open " role="navigation">
+         <p style="color:white; position: absolute; left:900px; font-family: Edwardian Script ITC;  font-size: 50px;">Botswana</p>
+         <p style="color:white; position: absolute; left:985px; top: 50px; font-family: Lobster;  font-size: 20px;">Tourism</p>
+         <h1 style="color:white;">Myra Sekgororoane</h1>
+         <h2 style="color:white;">Chief Executive Officer</h2>
+      </aside>
+      <aside id="basicSidebaraction" class="pmd-sidebaraction pmd-sidebaraction-open " role="navigation">
+         <h5>&emsp; &emsp; &emsp; &emsp; Actions</h5>
+         <div>
+            <img alt="" src="https://banner2.cleanpng.com/20180411/jaq/kisspng-computer-icons-symbol-clip-art-number-2-5acdeabc80c8f4.4954638615234444125275.jpg" style="height:24px;" > Overdue
+            <br>
+            <img alt="" src="https://pic.onlinewebfonts.com/svg/img_28627.png" style="height:24px;" > Draft
+            <br>
+            <img alt="" src="https://library.kissclipart.com/20181002/kae/kissclipart-boton-1-png-clipart-number-numerical-digit-212c2ed0123fbde4.png" style="height:24px;" > Pending
+            <br>
+            <img alt="" src="https://www.clipartmax.com/png/small/477-4774051_set-green-grunge-clipart-icons-alphanumeric-style-green-number-nine.png" style="height:24px;" > Completed
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr style="width:90%;text-align:center;margin-left:10px">
+            <h5>&emsp; &emsp; &emsp;  Notifications</h5>
+            <img alt="" src="https://www.shareicon.net/data/128x128/2015/11/16/672805_calendar_512x512.png" style="height:24px;" >
+            Carousel contributions
+            <br>
+            <img alt="" src="https://www.shareicon.net/data/128x128/2015/11/16/672842_calendar_512x512.png" style="height:24px;" > Engagement Survey
+            <br>
+            <img alt="" src="https://www.shareicon.net/data/128x128/2015/11/15/672642_calendar_512x512.png" style="height:24px;" > Mid-year review camp...
+            <br>
+            <img alt="" src=https://www.shareicon.net/data/128x128/2015/11/15/672745_calendar_512x512.png style="height:24px;" > CEO's address 
+            <br>
+            <img alt="" src="https://www.shareicon.net/data/128x128/2015/11/15/672705_calendar_512x512.png" style="height:24px;" > Competency Review 
+            <br>
+            <img alt="" src="https://www.shareicon.net/data/128x128/2015/11/15/672649_calendar_512x512.png" style="height:24px;" > Engagement Survey 
+            <br>
+            <br>
+            <br>
+            <br>
+            <p style="font-size:10px"><a href="#">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp;Load more...</a></p>
+      </aside>
+      <aside id="basicSidebarcovid" class="pmd-sidebarcovid pmd-sidebarcovid-open " role="navigation">
+      <main>
+      <div class="carousel slide" id="main-carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+      <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#main-carousel" data-slide-to="1"></li>
+      <li data-target="#main-carousel" data-slide-to="2"></li>
+      </ol><!-- /.carousel-indicators -->
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://www.counterpointresearch.com/wp-content/uploads/2020/02/Coronavirus.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 style="color: white;">Covid-19 and remote working ethics</h1>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/166C8/production/_116084819_smallergettyimages-1204224469-1.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 style="color: white;">Covid-19 and remote working ethics</h1>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://www.plumbers75.com/wp-content/uploads/2020/03/coronav.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 style="color: white;">Covid-19 and remote working ethics</h1>
+      </div>
+      </div>
+      </div><!-- /.carousel-inner -->
+      <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="sr-only" aria-hidden="true">Prev</span>
+      </a>
+      <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="sr-only" aria-hidden="true">Next</span>
+      </a>
+      </div><!-- /.carousel -->
+      </div><!-- /.container -->
+      </aside>
+      <aside id="basicSidebardev" class="pmd-sidebardev pmd-sidebardev-open " role="navigation">
+         <div class="grid">
+            <!-- Speakers -->
+            <h5>Development and Tools</h5>
+            <section class="teaser col-1-3">
+               <img src="https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/2019/05/business-communication-feature-image-1-1200x675.png" alt="Professional Speaker"  width="100" height="72" >
+               <p style="font-size:10px"><strong>Communication</strong> is the process of passing info and understanding from one person to..</p>
+               <p style="font-size:10px;   position: fixed;
+                  top: 164px;"><a href="#"> &emsp; &emsp;Load more...</a></p>
+            </section>
+            <!--
+               Schedule
+               
+               -->
+            <section class="teaser col-1-3">
+               <img src="https://isg-one.com/images/default-source/default-album/leadership-pandemic.tmb-th1903-746.jpg?sfvrsn=47d9c431_1" alt="Professional Speaker"  width="100" height="72" >
+               </a>
+               <p style="font-size:10px"><strong>Leadership</strong> is defined by which a person influences others to accomplish..</p>
+               <p style="font-size:10px;   position: fixed;
+                  top: 164px;"><a href="#"> &emsp; &emsp;Load more...</a></p>
+            </section>
+            <section class="teaser col-1-3">
+               <img src="https://www.enago.com/academy/wp-content/uploads/2018/09/Time-Management-1.png" alt="Professional Speaker"  width="100" height="72" >
+               </a>
+               <p style="font-size:10px"><strong>Time Management</strong> is the process of planning and exercising conscious control...</p>
+               <p style="font-size:10px;   position: fixed;
+                  top: 164px;"><a href="#"> &emsp; &emsp;Load more...</a></p>
+            </section>
+         </div>
+      </aside>
+      <aside id="basicSidebartips" class="pmd-sidebartips pmd-sidebartips-open " role="navigation">
+         <!-- <p>Tips and Tutorials</p> -->
+         <h5>&emsp; &emsp; &emsp; &emsp;Tips and Tutorials</h5>
+         <div class = "vid">
+            <video controls>
+               <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+               <source src="/build/videos/arcnet.io(7-sec).mp4" type="video/mp4" style="width:80%">
+            </video>
+            <br>
+            <video controls>
+               <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+               <source src="/build/videos/arcnet.io(7-sec).mp4" type="video/mp4">
+            </video>
+            <br>
+            <video controls>
+               <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+               <source src="/build/videos/arcnet.io(7-sec).mp4" type="video/mp4">
+            </video>
+            <p style="font-size:10px"><a href="#">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Load more...</a></p>
+         </div>
+      </aside>
+      <aside id="basicSidebarres" class="pmd-sidebarres pmd-sidebarres-open " role="navigation">
+         <!-- <h1 style="color:white; position: center;">Resources</h1> -->
+         <h5>&emsp; &emsp; &nbsp; Resources</h5>
+         <div> 
+            <img alt="" src="https://cdn3.iconfinder.com/data/icons/hr-and-recruitment/100/manual_handbook_employee_book_staff_user-512.png" style="height:24px;" >
+            Employee Handbook
+            <br>
+            <img alt="" src="https://cdn3.iconfinder.com/data/icons/eldorado-stroke-work/40/profile_2-256.png" style="height:24px;" > Role Profile
+            <br>
+            <img alt="" src="https://cdn4.iconfinder.com/data/icons/office-271/100/Organization_Chart-256.png" style="height:24px;" > Organgram
+            <br>
+            <img alt="" src="https://cdn2.iconfinder.com/data/icons/privacy-policy/512/privacy-data-policy-security-07-256.png" style="height:24px;" > Policies and SOP's
+            <br>
+            <img alt="" src="https://cdn1.iconfinder.com/data/icons/office-documents-2/68/prescription_notes_rules_checklist_todo_tasks-256.png" style="height:24px;" > Code of Conduct
+            <br>
+            <img alt="" src="https://cdn1.iconfinder.com/data/icons/customer-relationship-management-2/48/vector_880_14-256.png" style="height:24px;" > Support
+            <br>
+            <img alt="" src="https://cdn1.iconfinder.com/data/icons/customer-relationship-management-2/48/vector_880_14-256.png" style="height:24px;" > Safety Manual
+            <br>
+            <img alt="" src="https://cdn3.iconfinder.com/data/icons/aami-web-internet/64/aami4-85-256.png" style="height:24px;" > Contact List
+            <br>
+            <img alt="" src="https://cdn3.iconfinder.com/data/icons/aami-web-internet/64/aami4-85-256.png" style="height:24px;" > Academy
+         </div>
+         <br>
+         <br>
+         <br>
+         <br>
+         <p style="font-size:10px"><a href="#">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp;Load more...</a></p>
+      </aside>
+      <aside id="basicSidebarteam" class="pmd-sidebarteam pmd-sidebarteam-open " role="navigation">
+         <div class="carousel-inner" role="listbox">
+         <div class="item active">
+            <h4><strong>My Manager &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; My Team</h4>
+            </strong>
+            <div class="row">
+               <div class="col-md-2 col-sm-4 col-xs-12">
+                  <div class="sz_team_slider_trig_wrap">
+                     <div class="sz_team_slider_trig_txt">
+                        <img alt="sz_team_001_01" src="https://www.oppenheimer-partners.com/wp-content/uploads/2018/12/modise.png" class="center" >
+                        <div class="managers">
+                           <strong>
+                              <p style="font-size: 10px;">Zeid
+                           </strong>
+                           <br>modise<br>Chariperson of the Board</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-12">
+                  <div class="sz_team_slider_trig_wrap">
+                     <div class="sz_team_slider_trig_txt">
+                        <img alt="sz_team_001_01" src="https://www.africanleadershipacademy.org/wp-content/uploads/bb-plugin/cache/Image-9_Lara-683x1024-portrait-circle.jpg" class="center" >
+                        <div class="managers">
+                           <strong>
+                              <p style="font-size: 10px;">Irene
+                           </strong>
+                           <br>Bose<br>PA to Chief Executive Officer</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-12">
+                  <div class="sz_team_slider_trig_wrap">
+                     <div class="sz_team_slider_trig_txt">
+                        <img alt="sz_team_001_01" src="https://www.oppenheimer-partners.com/wp-content/uploads/2018/12/cynthia.png" class="center" >
+                        <div class="managers">
+                           <strong>
+                              <p style="font-size: 10px;">Itereleng
+                           </strong>
+                           <br>Kaunda<br>Internak Audit Manager</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-12">
+                  <div class="sz_team_slider_trig_wrap">
+                     <div class="sz_team_slider_trig_txt">
+                        <img alt="sz_team_001_01" src="https://www.oppenheimer-partners.com/wp-content/uploads/2018/12/michael.png" class="center" >
+                        <div class="managers">
+                           <strong>
+                              <p style="font-size: 10px;">Keitumetse
+                           </strong>
+                           <br>Setlang<br>Executive Manager Marketing</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-12">
+                  <div class="sz_team_slider_trig_wrap">
+                     <div class="sz_team_slider_trig_txt">
+                        <img alt="sz_team_001_01" src="https://www.oppenheimer-partners.com/wp-content/uploads/2019/04/marisa2.png" class="center" >
+                        <div class="managers">
+                           <strong>
+                              <p style="font-size: 10px;">Lethogonolo
+                           </strong>
+                           <br>Kelesitse<br>Executive Manager-HR & Admin</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-12">
+                  <div class="sz_team_slider_trig_wrap">
+                     <div class="sz_team_slider_trig_txt">
+                        <img alt="sz_team_001_01" src="https://previews.customer.envatousercontent.com/files/259151013/lightbox/images/sz_team_001_01.jpg" class="center" >
+                        <div class="managers">
+                           <strong>
+                              <p style="font-size: 10px;">MORONGWA
+                           </strong>
+                           <br>KOONTE<br>IT Manager</p>
+                           <p style="font-size:10px;     position: fixed;
+                              top: 122px;"><a href="#">&emsp; &emsp;Load more...</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <!-- build:include snippets/js-files-add-employee.html -->
+      <!-- /build -->
+      <!-- build:remove -->
+      <!--Admin js-->
+      <script type="text/javascript" src="themes/js/bootstrap4-admin-compress.min.js"></script> 
+      <!-- /build --> 
+      <script>
+         $(document).ready(function() {
+            var sPath=window.location.pathname;
+            var sPage = sPath.substring(sPath.lastIndexOf('https://themes.propeller.in/') + 1);
+            $(".pmd-sidebar-nav").each(function(){
+               $(this).find("a[href='"+sPage+"']").parents(".collapse").addClass("show");
+               $(this).find("a[href='"+sPage+"']").parents(".collapse").prev('a.nav-link').addClass("active");
+               $(this).find("a[href='"+sPage+"']").addClass("active");
+            });
+            $(".auto-update-year").html(new Date().getFullYear());
+         });
+         
+            // Show Hide Edit Basic Info Card
+            $(".edit-basic-card").hide();
+            $("#edit-basic-info").click(function(){
+                $(".edit-basic-card").show();
+                $(".view-basic-card").hide();
+            });
+            $("#view-basic-info").click(function(){
+                $(".view-basic-card").show();
+                $(".edit-basic-card").hide();
+            });
+            $("#reset-basic-info").click(function(){
+                $(".view-basic-card").show();
+                $(".edit-basic-card").hide();
+            });
+         
+            // Show Hide Edit Employee Info Card
+            $(".edit-employee-card").hide();
+            $("#edit-employee-info").click(function(){
+                $(".edit-employee-card").show();
+                $(".view-employee-card").hide();
+            });
+            $("#view-employee-info").click(function(){
+                $(".view-employee-card").show();
+                $(".edit-employee-card").hide();
+            });
+            $("#reset-employee-info").click(function(){
+                $(".view-employee-card").show();
+                $(".edit-employee-card").hide();
+            });
+         
+            // Show Hide Edit Contact Info Card
+            $(".edit-contact-card").hide();
+            $("#edit-contact-info").click(function(){
+                $(".edit-contact-card").show();
+                $(".view-contact-card").hide();
+            });
+            $("#view-contact-info").click(function(){
+                $(".view-contact-card").show();
+                $(".edit-contact-card").hide();
+            });
+            $("#reset-contact-info").click(function(){
+                $(".view-contact-card").show();
+                $(".edit-contact-card").hide();
+            });
+         
+            // Show Hide Edit Salary Info Card
+            $(".edit-salary-card").hide();
+            $("#edit-salary-info").click(function(){
+                $(".edit-salary-card").show();
+                $(".view-salary-card").hide();
+            });
+            $("#view-salary-info").click(function(){
+                $(".view-salary-card").show();
+                $(".edit-salary-card").hide();
+            });
+            $("#reset-salary-info").click(function(){
+                $(".view-salary-card").show();
+                $(".edit-salary-card").hide();
+            });
+         
+            //Birthday DatePicker
+            $('#birthdate-picker').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+            
+            //Joining DatePicker
+            $('#joindate-picker').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+            
+            // Passing Year
+            $('#passing-year').datetimepicker({
+                viewMode: 'years',
+                format: 'YYYY'
+            });
+         
+            // Passing Year
+            $('#edit-passing-year').datetimepicker({
+                viewMode: 'years',
+                format: 'YYYY'
+            });
+            
+            // Add Education start date date and time picker 
+            $('#datepicker-start').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+         
+            // Add Education End date date and time picker 
+            $('#datepicker-end').datetimepicker({
+                useCurrent: false,
+                format: 'DD-MM-YYYY'
+            });
+            
+            // start date picker for Add Education
+            $("#datepicker-start").on("dp.change", function (e) {
+                $('#datepicker-end').data("DateTimePicker").minDate(e.date);
+            });
+            // end date picker for Add Education 
+            $("#datepicker-end").on("dp.change", function (e) {
+                $('#datepicker-start').data("DateTimePicker").maxDate(e.date);
+            });
+         
+            // edit Education start date date and time picker 
+            $('#edit-datepicker-start').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+         
+            // edit Education End date date and time picker 
+            $('#edit-datepicker-end').datetimepicker({
+                useCurrent: false,
+                format: 'DD-MM-YYYY'
+            });
+         
+            // start date picker for edit Education
+            $("#edit-datepicker-start").on("dp.change", function (e) {
+                $('#edit-datepicker-end').data("DateTimePicker").minDate(e.date);
+            });
+            // end date picker for edit Education
+            $("#edit-datepicker-end").on("dp.change", function (e) {
+                $('#edit-datepicker-start').data("DateTimePicker").maxDate(e.date);
+            });
+         
+            // edit experience  start date date and time picker 
+            $('#editexp-datepicker-start').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+         
+            // edit experience End date date and time picker 
+            $('#editexp-datepicker-end').datetimepicker({
+                useCurrent: false,
+                format: 'DD-MM-YYYY'
+            });
+            
+            // edit experience start date picker
+            $("#editexp-datepicker-start").on("dp.change", function (e) {
+                $('#edit-datepicker-end').data("DateTimePicker").minDate(e.date);
+            });
+            // edit experience end date picker
+            $("#editexp-datepicker-end").on("dp.change", function (e) {
+                $('#edit-datepicker-start').data("DateTimePicker").maxDate(e.date);
+            });
+         
+            // add experience  start date date and time picker 
+            $('#exp-datepicker-start').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+         
+            // add experience End date date and time picker 
+            $('#exp-datepicker-end').datetimepicker({
+                useCurrent: false,
+                format: 'DD-MM-YYYY'
+            });
+            
+            // add experience start date picker
+            $("#exp-datepicker-start").on("dp.change", function (e) {
+                $('#edit-datepicker-end').data("DateTimePicker").minDate(e.date);
+            });
+            // add experience end date picker
+            $("#exp-datepicker-end").on("dp.change", function (e) {
+                $('#edit-datepicker-start').data("DateTimePicker").maxDate(e.date);
+            });
+         
+             // single range slider with default tooltip open
+            var pmdSliderTooltip = document.getElementById('pmd-slider-tooltip');
+            noUiSlider.create(pmdSliderTooltip, {
+                start: [ 7 ],
+                connect: 'lower',
+                tooltips: [wNumb({ decimals: 0 }) ],
+                range: {
+                    'min': [  0 ],
+                    'max': [ 10 ]
+                }
+            });
+      </script>
+      <!-- Scripts Ends -->
+   </body>
+</html>
